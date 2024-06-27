@@ -34,10 +34,11 @@ a {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s;
 }
 
-.navbar * {
-  z-index: 5;
+.navbar.top {
+  background: transparent;
 }
 #logo {
   display: flex;
