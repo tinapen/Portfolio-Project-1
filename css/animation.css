@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+  transition: transform 0.1s ease;
+}
+
+.navbar {
+  transition: top 0.3s;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--light-color);
+  }
+}
+
+.content h1 {
+  overflow: hidden;
+  border-right: 0.15em solid var(--light-color);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 11em;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--light-color);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.content h2 {
+  animation: 3s fadeInUp;
+}
+
+.skills-box:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+  box-shadow: -20px 20px 50px 15px var(--secondary-color);
+}
+
+.project-box:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+  box-shadow: -20px 20px 50px 15px var(--secondary-color);
+}
