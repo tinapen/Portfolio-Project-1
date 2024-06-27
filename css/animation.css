@@ -3,10 +3,6 @@ html {
   transition: transform 0.1s ease;
 }
 
-.navbar {
-  transition: top 0.3s;
-}
-
 /* The typewriter cursor effect */
 @keyframes blink {
   from,
