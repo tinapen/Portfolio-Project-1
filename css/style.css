@@ -71,7 +71,6 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(../images/code-bg.jpg) no-repeat center center/cover;
   background-attachment: fixed;
-  background-blend-mode: darken;
   height: 100vh;
 }
 
@@ -164,8 +163,8 @@ a {
 #education {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(../images/code-bg.jpg) no-repeat center center/cover;
-  height: 100vh;
   background-attachment: fixed;
+  height: 100vh;
   color: var(--light-color);
   padding-top: 0px;
 }
@@ -425,6 +424,7 @@ a {
 #contact {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(../images/code-bg.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
   height: 90vh;
 }
 
