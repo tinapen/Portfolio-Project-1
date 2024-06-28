@@ -30,7 +30,7 @@
 
   #nav-link a {
     font-size: 12px;
-    padding: 0 10px 0;
+    padding: 0 5px 0;
   }
 
   .hero-container .content {
@@ -70,7 +70,7 @@
     width: 120px;
     border-radius: 50%;
     border: var(--secondary-color) 5px solid;
-    margin: 0 200px 0;
+    margin: 0 35% 0;
   }
   .about-content {
     display: flex;
@@ -139,13 +139,15 @@
     display: block;
     width: 90vw;
     height: 85vh;
-    margin: 10px 30px 0;
+    margin: 10px 55px 0;
     padding: 0px 0px 0;
+    align-items: center;
+    justify-items: center;
   }
 
   .educ-box-1 {
     border: var(--light-color) 2px solid;
-    width: 450px;
+    width: 320px;
     height: 150px;
     text-align: center;
     align-content: center;
@@ -268,7 +270,7 @@
 
   .exp-container hr {
     margin: 10px 0 10px;
-    width: 95vw;
+    width: 90vw;
     border: solid 2px;
   }
   .exp-content {
@@ -277,7 +279,7 @@
   }
 
   .exp-date {
-    font-size: 15px;
+    font-size: 13px;
     border-right: solid 3px var(--light-color);
     align-content: center;
     text-align: center;
@@ -285,17 +287,17 @@
   }
   .exp-company {
     grid-column: 2 / span 4;
-    padding: 10px 0 0 30px;
-    width: 315px;
+    padding: 10px 10px 30px;
+    width: 250px;
   }
 
   .exp-company h2 {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 10px;
   }
 
   .exp-company h3 {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 10px;
   }
 
@@ -327,12 +329,11 @@
     display: block;
   }
   .project-box {
-    margin: 0 90px 0;
     width: 300px;
     height: 250px;
     background: var(--primary-color);
     border-radius: 20px;
-    margin: 0 80px 10px;
+    margin: 0 40px 25px;
   }
   .project-box img {
     width: 100%;
